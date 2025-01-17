@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Stall</title>
+    <link rel="stylesheet" href="overflow.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #3e8e41;
+            color: white;
+            text-align: center;
+            padding: 10px 20px;
+        }
+
+    h2 {
+        text-align: center;
+        color: red;
+    }
+    
+    h3{
+        text-align: center;
+
+    }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #2c662d;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+
+        .book-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 50px;
+            padding: 20px;
+        }
+
+        
+
+        .btn {
+            text-align: center;
+            color: white;
+            background-color: blue;
+        }
+
+        .book {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .book img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .book h3 {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        .book p {
+            font-size: 14px;
+            color: #555;
+        }
+
+        .description {
+            background-color: coral;
+            width: 100%;
+            height: 100px;
+            overflow: scroll;
+            padding: 5px;
+            box-sizing: border-box;
+            border-radius: 5px;
+            font-size: 12px;
+            color: #333;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Book Stall</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="About.html">About</a>
+        <a href="book.html">Books</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+   
+    <div class="container">
+        <section id="about">
+            <h2>Welcome to My Bookstore</h2>
+            <h3>We offer a wide selection of books across various genres, catering to book lovers of all ages.</h3>
+        </section>
+
+    <div class="book-container">
+        <div class="book">
+            <img src="whispers of the soul.jpg" alt="Book 1">
+            <h3>whispers of the soul</h3>
+            <p>Author: Misbah  sheikh</p>
+            <p>₹650</p>
+          <button class="btn">Buy Now</button>
+            <div class="description">
+                Whispers of the Soul is a concept that represents the quiet, often unnoticed messages or guidance that come from within. It can refer to the gentle stirrings of intuition, the subtle reminders of one’s deeper self, or the inner voice that speaks in moments of silence. These "whispers" are often associated with personal growth, self-discovery, and spiritual awakening. They suggest the need to listen carefully to the heart, mind, and spirit, encouraging a connection with one's true desires and values. In literature, art, or music, the phrase "Whispers of the Soul" might signify a theme of searching for meaning, understanding one's purpose, or embracing vulnerability.
+
+It could also be the title of a reflective, introspective piece, perhaps a poem, song, or artwork, where the theme centers around inner reflection, emotional depth, or the gentle aspects of the human experience that are often overlooked but deeply felt.
+            </div>
+        </div>
+
+        <div class="book">
+            <img src="dog man.jpg" alt="Book 2">
+            <h3>Dog Man</h3>
+            <p>Author: Dav Pilkey</p>
+            <p class="p">₹550</p>
+          <button class="btn">Buy Now</button>
+            <div class="description">
+                Dog Man" by Dav Pilkey is a hilarious and action-packed graphic novel series aimed primarily at young readers. It follows the adventures of a unique superhero, Dog Man, a part-dog, part-man creature who is the result of a botched police surgery. With the body of a dog and the head of a man, Dog Man is determined to fight crime and protect the world from evil.
+
+                The series features a blend of slapstick humor, exciting adventures, and heartwarming moments as Dog Man and his loyal companions, like his best friend Petey the Cat (who is both his enemy and occasional ally), battle villains, solve mysteries, and navigate everyday challenges. The books are known for their lively illustrations, which are simple yet expressive, making them accessible to younger readers.
+                
+                With its playful tone, engaging characters, and a strong emphasis on friendship, bravery, and second chances, "Dog Man" is perfect for children, particularly those who enjoy comic books and graphic novels. It’s a lighthearted series that encourages creativity and reading through humor and fun action sequences.
+                
+                The "Dog Man" books are part of a larger collection by Dav Pilkey, who is also known for the "Captain Underpants" series. This makes "Dog Man" a great choice for readers who enjoyed his previous works and are looking for more hilarious, fast-paced stories.
+            </div>
+        </div>
+
+        <div class="book">
+            <img src="walking dead.jpg" alt="Book 3">
+            <h3>Walking Dead</h3>
+            <p>Author:Robert Kirkman</p>
+            <p>₹770</p>
+          <button class="btn">Buy Now</button>
+            <div class="description">
+                The Walking Dead" is a comic book series written by Robert Kirkman, set in a world taken over by zombies, also called "walkers." The story follows Rick Grimes, a sheriff's deputy who wakes up from a coma to find that the world has been destroyed by the undead. As he searches for his family, he meets other survivors, and together they must figure out how to survive in this dangerous new world.
+
+The series is about more than just zombies—it explores the struggles of living without laws, the tough choices people have to make, and how humans change when their society falls apart. As the group moves through the ruins of the world, they face both zombie attacks and threats from other groups of survivors who can be just as dangerous.
+
+At its heart, The Walking Dead is about survival, trust, and what it means to stay human when everything else is falling apart. The series is known for its intense action, emotional moments, and tough decisions the characters must make.
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Book Stall. All rights reserved.</p>
+    </footer>
+</body>
+</html>
